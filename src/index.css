@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary: #458FF6;
+    --secondary: #7D7987;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+p {
+    color: var(--secondary);
+}
+
+.heroImg img {
+    width: 593px;
+    height: 498px;
+}
+
+.heroText h1 {
+    font-size: 48px;
+    width: 460px;
+}
+
+.heroText p {
+    font-size: 21px;
+}
+
+.heroText button {
+    background-color: var(--primary);
+}
+
+
+/* Services */
+
+#services .card {
+    width: 330px;
+    height: 334px;
+    border-radius: 20px;
+}
+
+#services .card img {
+    width: 90px;
+    height: 90px;
+}
+
+#services .card-text {
+    width: 266px;
+}
+
+#services .card h5 {
+    font-size: 24px;
+}
+
+#services button, .content a  {
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.content button  {
+    color: var(--primary);
+}
+
+.decore {
+    z-index: -1;
+    top: 630px;
+    left: 0;
+}
+
+
+/* Content */
+
+.contentText h1 {
+    font-size: 36px;
+}
+
+.contentText p {
+    font-size: 18px;
+}
+
+/* Banner */
+
+#banner {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+}
+
+
+/* Article */
+
+#article .card {
+    width: 320px;
+    height: 480px;
+    border-radius: 20px;
+}
+
+#article .card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#article .btn {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+
+/* Footer */
+
+footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+footer .nav-logo {
+    background-color: white;
+    color: var(--primary);  
+}
+
+button {
+    border: none;
+}
+
