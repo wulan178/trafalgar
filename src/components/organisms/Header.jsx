@@ -17,7 +17,7 @@ export default function Header() {
                         alt='Logo'
                         className='me-2'
                     />
-                    <h5 className='mt-2'>Trafalgar</h5>
+                    <h1 className='mt-2'>Trafalgar</h1>
                 </a>
                 <button
                     className='navbar-toggler'
@@ -28,8 +28,9 @@ export default function Header() {
                     aria-expanded='false'
                     aria-label='Toggle navigation'
                 >
-                    <span className='navbar-toggler-icon'></span>
+                    <span className='navbar-toggler-icon' />
                 </button>
+
                 <div className='collapse navbar-collapse' id='navbarNav'>
                     <ul className='navbar-nav ms-lg-auto'>
                         {navigation.map((item, i) => (

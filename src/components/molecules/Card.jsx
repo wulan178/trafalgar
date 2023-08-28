@@ -3,9 +3,9 @@ import React from "react";
 export default function Card({ img, title, desc, type }) {
     return type === "article" ? (
         <div className='card border-0 shadow'>
-            <img src={`/images/${img}`} className='card-img-top' alt='' />
+            <img src={`/images/${img}`} className='card-img-top' alt='article thumbnail' />
             <div className='card-body px-4 py-4'>
-                <h5 className='card-title mb-4'>{title}</h5>
+                <h1 className='card-title mb-4'>{title}</h1>
                 <p className='card-text'>{desc}</p>
                 <a
                     href='/'
@@ -30,7 +30,7 @@ export default function Card({ img, title, desc, type }) {
                 alt={title}
             />
             <div className='card-body'>
-                <h5 className='card-title my-2'>{title}</h5>
+                <h1 className='card-title my-2'>{title}</h1>
                 <p className='card-text mt-3'>{desc}</p>
             </div>
         </div>

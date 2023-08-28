@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
-    --primary: #458ff6;
-    --secondary: #7d7987;
+    --primary: #2B5897;
+    --secondary: #595858;
 }
 
 * {
@@ -19,6 +19,10 @@ body::-webkit-scrollbar {
 
 p {
     color: var(--secondary);
+}
+
+h1 {
+    font-size: 20px;
 }
 
 .heroImg img {
@@ -41,22 +45,22 @@ p {
 
 /* Services */
 
-#services .card {
+#find_a_doctor .card {
     width: 330px;
     height: 334px;
     border-radius: 20px;
 }
 
-#services .card img {
+#find_a_doctor .card img {
     width: 90px;
     height: 90px;
 }
 
-#services .card-text {
+#find_a_doctor .card-text {
     width: 266px;
 }
 
-#services .card h5 {
+#find_a_doctor .card h5 {
     font-size: 24px;
 }
 
@@ -89,13 +93,13 @@ p {
 
 /* Article */
 
-#article .card {
+#about_us .card {
     width: 320px;
     height: 480px;
     border-radius: 20px;
 }
 
-#article .card-img-top {
+#about_us .card-img-top {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }

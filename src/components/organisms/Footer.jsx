@@ -17,14 +17,13 @@ export default function Footer() {
                             alt='logo'
                             className='me-2'
                         />
-                        <h5 className='mt-2'>Trafalgar</h5>
+                        <h1 className='mt-2'>Trafalgar</h1>
                     </a>
                 </li>
-                <li>
+                <li className="mb-3">
                     Trafalgar provides progressive, and affordable healthcare,
                     accessible on mobile and online for everyone
                 </li>
-                <br />
                 <li>©Trafalgar PTY LTD 2020. All rights reserved</li>
             </ul>
 

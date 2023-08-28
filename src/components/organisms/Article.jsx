@@ -18,7 +18,6 @@ export default function Article() {
                     />
                 ))}
             </div>
-
             <div className='text-center mt-5'>
                 <Button text='View all' />
             </div>
