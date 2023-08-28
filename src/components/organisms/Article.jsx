@@ -5,9 +5,12 @@ import Card from "../molecules/Card";
 
 export default function Article() {
     return (
-        <section id='about_us' className='mx-5 my-5 py-5'>
+        <section
+            id='about_us'
+            className='mx-md-5 my-md-5 py-md-5 mx-4 my-4 py-4'
+        >
             <h2 className='text-center'>Check out our latest article</h2>
-            <div className='d-flex mt-5 justify-content-center gap-5'>
+            <div className='d-flex flex-md-row flex-column mt-md-5 mt-4 justify-content-center align-items-center gap-md-5 gap-4'>
                 {articles.map((item, i) => (
                     <Card
                         key={i}

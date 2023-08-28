@@ -5,9 +5,9 @@ import Card from "../molecules/Card";
 
 export default function Services() {
     return (
-        <section id='services' className='mx-5 my-5 pt-4'>
-            <h2 className='mt-5 mb-4 text-center'>Our services</h2>
-            <p className='text-center w-75 mx-auto'>
+        <section id='services' className='mx-lg-5 mx-4 my-5 pt-lg-4 pt-2'>
+            <h2 className='mt-5 mb-lg-4 mb-3 text-center'>Our services</h2>
+            <p className='text-center mx-auto w-md-75'>
                 We provide to you the best choiches for you. Adjust it to your
                 health needs and make sure your undergo treatment with our
                 highly qualified doctors you can consult with us which type of
@@ -15,7 +15,7 @@ export default function Services() {
             </p>
 
             {/* START :CARDS */}
-            <div className='d-flex my-5 justify-content-center flex-wrap gap-5'>
+            <div className='d-flex my-5 justify-content-center flex-wrap gap-md-5 gap-3'>
                 {services.map((item, i) => (
                     <Card
                         key={i}
@@ -30,12 +30,6 @@ export default function Services() {
             <div className='text-center'>
                 <Button text='Learn more' />
             </div>
-
-            <img
-                src='assets/illustration/bg.svg'
-                alt=''
-                className='decore position-absolute'
-            />
         </section>
     );
 }

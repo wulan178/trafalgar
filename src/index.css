@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
-    --primary: #2B5897;
+    --primary: #2b5897;
     --secondary: #595858;
 }
 
@@ -17,6 +17,14 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+main {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 100vw;
+    cursor: default;
+}
+
 p {
     color: var(--secondary);
 }
@@ -25,78 +33,24 @@ h1 {
     font-size: 20px;
 }
 
-.heroImg img {
-    width: 593px;
-    height: 498px;
+footer {
+    background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
 }
 
-.heroText h1 {
-    font-size: 48px;
-    width: 460px;
+button {
+    border: none;
 }
 
-.heroText p {
-    font-size: 21px;
-}
-
-.heroText button {
-    background-color: var(--primary);
-}
-
-/* Services */
-
-#find_a_doctor .card {
-    width: 330px;
-    height: 334px;
-    border-radius: 20px;
-}
-
-#find_a_doctor .card img {
-    width: 90px;
-    height: 90px;
-}
-
-#find_a_doctor .card-text {
-    width: 266px;
-}
-
-#find_a_doctor .card h5 {
-    font-size: 24px;
-}
-
-.content button {
-    color: var(--primary);
-}
-
-.decore {
-    z-index: -1;
-    top: 630px;
-    left: 0;
-}
-
-/* Content */
-
-.contentText h1 {
-    font-size: 36px;
-}
-
-.contentText p {
+.hero p {
     font-size: 18px;
 }
 
-/* testimonials */
+.hero button {
+    background-color: var(--primary);
+}
 
 #testimonials {
     background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
-    border-radius: 24px;
-}
-
-/* Article */
-
-#about_us .card {
-    width: 320px;
-    height: 480px;
-    border-radius: 20px;
 }
 
 #about_us .card-img-top {
@@ -104,17 +58,14 @@ h1 {
     border-top-right-radius: 20px;
 }
 
-/* Footer */
-
-footer {
-    background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+.card:hover {
+    transition: all;
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+    opacity: 70%;
 }
 
-footer .nav-logo {
-    background-color: white;
-    color: var(--primary);
-}
-
-button {
-    border: none;
+.illustration {
+    width: 100%;
+    height: 100%;
 }

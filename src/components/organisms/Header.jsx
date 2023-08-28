@@ -4,8 +4,8 @@ import { navigation } from "../../utils/constants";
 
 export default function Header() {
     return (
-        <nav className='navbar navbar-expand-lg navbar-light my-3'>
-            <div className='container-fluid mx-5 d-flex align-items-center'>
+        <nav className='navbar navbar-expand-lg navbar-light my-md-3 my-2 container-fluid'>
+            <div className='container-fluid d-flex align-items-center'>
                 <a
                     href='/'
                     className='navbar-brand fw-bold d-flex align-items-center'
