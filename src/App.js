@@ -1,35 +1,39 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import {
+    Article,
+    Content,
+    Footer,
+    Header,
+    Hero,
+    Services,
+    Testimonials,
+} from "./components";
 
-import Article from "./components/Article";
-import Download from "./components/Download";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Providers from "./components/Providers";
-import Services from "./components/Services";
-import Testimonials from "./components/Testimonials";
-
-function App() {
+export default function App() {
     return (
         <>
             <Header />
             <Hero />
             <Services />
-            <Providers />
-            <Download />
+            <Content
+                id='find_a_doctor'
+                title='Leading healthcare providers'
+                img='leading.svg'
+                desc='Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just
+                    work. We take pride in the solutions we deliver'
+                button='Learn more'
+            />
+            <Content
+                id='apps'
+                type='reverse'
+                title='Download our mobile apps'
+                img='download.svg'
+                desc='Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls,
+                    or administrative hassle) and securely'
+                button='Download'
+            />
             <Testimonials />
             <Article />
             <Footer />
         </>
-    );
-}
-
-export default function AppRoutes() {
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<App />} />
-            </Routes>
-        </BrowserRouter>
     );
 }

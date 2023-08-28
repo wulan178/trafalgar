@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
-    --primary: #458FF6;
-    --secondary: #7D7987;
+    --primary: #458ff6;
+    --secondary: #7d7987;
 }
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 li {
@@ -39,7 +39,6 @@ p {
     background-color: var(--primary);
 }
 
-
 /* Services */
 
 #services .card {
@@ -61,12 +60,7 @@ p {
     font-size: 24px;
 }
 
-#services button, .content a  {
-    color: var(--primary);
-    border: 1px solid var(--primary);
-}
-
-.content button  {
+.content button {
     color: var(--primary);
 }
 
@@ -75,7 +69,6 @@ p {
     top: 630px;
     left: 0;
 }
-
 
 /* Content */
 
@@ -87,13 +80,12 @@ p {
     font-size: 18px;
 }
 
-/* Banner */
+/* testimonials */
 
-#banner {
-    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+#testimonials {
+    background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
     border-radius: 24px;
 }
-
 
 /* Article */
 
@@ -108,24 +100,17 @@ p {
     border-top-right-radius: 20px;
 }
 
-#article .btn {
-    border: 1px solid var(--primary);
-    color: var(--primary);
-}
-
-
 /* Footer */
 
 footer {
-    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
 }
 
 footer .nav-logo {
     background-color: white;
-    color: var(--primary);  
+    color: var(--primary);
 }
 
 button {
     border: none;
 }
-
